@@ -16,8 +16,7 @@ class MyClient(botpy.Client):
     async def on_message_create(self, message: Message):
         for detectDisallowWord in disallowWord:
             if detectDisallowWord in message.content:
-                await self.api.recall_message(message.channel_id, message.id, hidetip=True)
-
+                await self.api.recall_message(message.channel_id, message.id, hidetip=True) # 若hidetip=False，则将不会隐藏撤回记录。目前建议设为 False。
                 # 监听频道消息事件
 intents = botpy.Intents(guild_messages=True) #仅私域机器人能实现
 client = MyClient(intents=intents)
