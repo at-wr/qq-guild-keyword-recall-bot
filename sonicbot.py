@@ -36,4 +36,4 @@ intents = botpy.Intents(guild_messages=True) #仅私域机器人能实现
 client = MyClient(intents=intents)
 
 # 配置机器人 AppID 与 Token
-client.run(appid="102006127", token="nJq03pAsOtJTVG6wpO3v1y83f3yEtnZ0")
+client.run(appid="", token="")
