@@ -4,7 +4,7 @@ A QQ Guild Keyword Recall Bot based on BotPy. 基于官方 BotPy 框架构建的
 
 ## 使用方法
 
-1. 运行 pip install qq-botpy
+1. 准备 Python 3.8 及以上版本的环境，确保已安装 pip。运行 pip install qq-botpy
 2. 建立关键词名单
 新建 sonicbotDetectWord.txt，通过换行分割关键词
 
