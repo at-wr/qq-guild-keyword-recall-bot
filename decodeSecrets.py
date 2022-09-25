@@ -1,7 +1,7 @@
 import base64
 
 writeOrNot = input ("Write in sonicbotDetectWord? (Y/N)\n")
-if writeOrNot == "Y":
+if writeOrNot == "Y" or "y":
     write=True
     secrets = open("sonicbotDetectWord.txt","w",encoding = "utf-8").close()
     secrets = open("sonicbotDetectWord.txt","w",encoding = "utf-8")
