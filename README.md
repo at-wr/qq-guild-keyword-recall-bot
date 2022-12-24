@@ -2,7 +2,7 @@
 A QQ Guild Keyword Recall Bot based on BotPy. 基于官方 BotPy 框架构建的 QQ 频道关键词检测撤回机器人程序。
 本程序仅支持私域QQ频道机器人。
 
-<center><img src="https://github.com/sonicspinforum/qq-guild-keyword-recall-bot/blob/main/img/preview.png?raw=true" /></center>
+<center><img src="https://github.com/sonicspinforum/qq-guild-keyword-recall-bot/blob/main/img/preview.jpg?raw=true" width="30%" /></center>
 
 ## 使用方法
 
