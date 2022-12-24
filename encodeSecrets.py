@@ -12,3 +12,5 @@ for encodeLine in disallowWord:
     secrets.write('\n')
     print(encoded)
     print(base64.urlsafe_b64decode(encoded.encode('utf-8')).decode('utf8'))
+    
+print("Encode Done")
