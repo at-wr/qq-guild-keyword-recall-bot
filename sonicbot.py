@@ -23,4 +23,6 @@ intents = botpy.Intents(guild_messages=True) #仅私域机器人能实现
 client = MyClient(intents=intents)
 
 # 配置机器人 AppID 与 Token
+# You need to fetch it from q.qq.com
+
 client.run(appid="", token="")
