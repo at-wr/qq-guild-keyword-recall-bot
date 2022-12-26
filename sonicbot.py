@@ -17,7 +17,8 @@ class MyClient(botpy.Client):
         for detectDisallowWord in disallowWord:
             if detectDisallowWord in message.content:
                 await self.api.recall_message(message.channel_id, message.id, hidetip=True) # 若 hidetip=False，则将不会隐藏撤回记录。目前建议设为 False。
-
+        if message.content == "Sonicbot状态":
+            await message.reply(content=f"{self.robot.name} 状态正常")
 # 监听频道消息事件
 intents = botpy.Intents(guild_messages=True) #仅私域机器人能实现
 client = MyClient(intents=intents)
